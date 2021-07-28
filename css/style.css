@@ -1,29 +1,39 @@
+:root {
+  --main-color: #ffffff;
+  --text-color: #212121;
+  --accent-color: #2196f3;
+  --alt-text-color: #757575;
+  --main-bg-color: #f5f4fa;
+  --alt-bg-color: #2f303a;
+}
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--main-color);
 }
+
 .header {
   width: 1600px;
   left: 0px;
   top: 0px;
-  background: #ffffff;
+  background: var(--main-bg-color);
 }
 .Webstudio {
   margin-right: 93px;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-align: left;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .color1 {
-  color: #212121;
+  color: var(--text-color);
 }
 .color2 {
-  color: #ffffff;
+  color: var(--main-color);
 }
 .text-decoration {
   list-style-type: none;
@@ -34,29 +44,30 @@ body {
   margin-right: 50px;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   text-align: left;
 
-  color: #212121;
+  color: var(--text-color);
 }
 .work-links:hover,
 .work-links:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts {
   margin-right: 50px;
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--alt-text-color);
 }
 .contacts:hover,
 .contacts:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .visually-hidden {
   position: absolute;
@@ -75,110 +86,109 @@ body {
   width: 1600px;
   left: 0px;
   top: 80px;
-  background: #2f303a;
+  text-align: center;
+  background: var(--alt-bg-color);
 }
 .effective_decisions {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-  padding: 280px 452px 0px 452px;
+  color: var(--main-color);
 }
 .button_order_service {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.875;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
-  margin: 30px 700px 200px 700px;
+  color: var(--main-color);
+  background-color: var(--accent-color);
 }
 
 .skills {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--text-color);
 }
 .skill_blocks {
   width: 270px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--alt-text-color);
 }
 .task,
 .team {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 .section2 {
-  background: #f5f4fa;
+  background: var(--main-bg-color);
 }
 .name {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
 }
 .job {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--alt-text-color);
 }
 .button_profile_lists {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background: #f5f4fa;
+  color: var(--text-color);
+  background: var(--main-bg-color);
   border-radius: 4px;
 }
 .button_profile_lists:hover,
 .button_profile_lists:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--main-color);
+  background: var(--accent-color);
+}
+.goods {
+  text-decoration: none;
 }
 .brand {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--text-color);
 }
 
 .type {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--alt-text-color);
 }
 .footer {
   width: 1600px;
   left: 0px;
   top: 2097px;
-  background: #2f303a;
+  background: var(--alt-bg-color);
 }
 .adress {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  font-style: normal;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-color);
 }
